@@ -32,16 +32,16 @@ Esta anotación se utiliza junto con @Id para especificar la estrategia de gener
 #### ✨@Column
 Se utiliza para definir las características de una columna en la tabla de base de datos que corresponde a un campo o propiedad de la entidad, como el nombre de la columna (name), si puede ser nula (nullable), su longitud (length), etc.
 
-#### ✨@Temporal:
+#### ✨@Temporal
 Se usa para precisar cómo se debe mapear un campo java.util.Date o java.util.Calendar a una base de datos. Las opciones incluyen TemporalType.DATE (solo fecha), TemporalType.TIME (solo hora), y TemporalType.TIMESTAMP (fecha y hora).
 
-#### ✨@PrePersist:
+#### ✨@PrePersist
 Es un tipo de callback en el ciclo de vida de las entidades que se invoca justo antes de que la entidad sea persistida (insertada) en la base de datos. Se puede usar para ejecutar algún código justo antes de que la entidad sea guardada, como configurar un timestamp o calcular un valor.
 
-#### ✨@Transactional:
+#### ✨@Transactional
 se utiliza para declarar que un método, o todos los métodos de una clase, deben ser ejecutados dentro de un contexto transaccional. Esto significa que las operaciones realizadas dentro del método forman parte de una transacción de base de datos, las cuales son gestionadas automáticamente por Spring.
 
-### Conceptos en Spring Boot :
+### Conceptos en Spring Boot 
 #### 🔆ResponseEntity<?>
 Es una clase en Spring Framework usada para representar toda la respuesta HTTP, incluyendo el cuerpo, estado y cabeceras. Esta clase es parametrizable, lo que significa que puedes definir el tipo de dato que quieres que contenga el cuerpo de la respuesta con ResponseEntity<T>, donde T es el tipo de dato del cuerpo.
 
