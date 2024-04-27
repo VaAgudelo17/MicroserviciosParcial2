@@ -56,4 +56,53 @@ Es una anotación utilizada en Spring MVC para indicar que un parámetro de mét
 ### Definición:
 Es un componente clave dentro de Spring Cloud que actúa como un servidor de descubrimiento de servicios. Este servidor es parte del patrón de diseño de microservicios, facilitando la forma en que los servicios dentro de una arquitectura de microservicios se localizan y comunican entre sí. Eureka es desarrollado y mantenido por Netflix y está integrado en el ecosistema Spring Cloud para su uso en aplicaciones Java.
 
+## 🌙👩🏻‍💻Servicio Gateway🌙
+### Definición:
+Spring Cloud Gateway es un marco de trabajo de código abierto que proporciona una manera flexible y poderosa de construir y administrar servicios de enrutamiento y control de acceso para aplicaciones basadas en la arquitectura de microservicios.
 
+### Propiedades 
+
+#### 🔹eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+Esta línea especifica la URL del servicio de Eureka al que se conecta este cliente. Eureka es un servicio de descubrimiento de servicios utilizado en microservicios para localizar instancias de aplicaciones que se ejecutan en diferentes máquinas. defaultZone especifica la zona predeterminada donde el cliente buscará el registro del servicio Eureka.
+
+#### 🔹spring.cloud.gateway.mvc.routes[0].id=microservicio-usuarios
+Esta línea configura una ruta en el Gateway de Spring Cloud, asignándole un identificador único (id) de microservicio-usuarios. Este identificador se utiliza internamente para referirse a esta ruta específica en configuraciones o logs.
+
+#### 🔹spring.cloud.gateway.mvc.routes[0].uri=lb://microservicio-usuarios
+Define el URI de destino para la ruta especificada. El prefijo lb:// indica que Spring Cloud Gateway utilizará un balanceador de carga para dirigir el tráfico a las instancias disponibles de microservicio-usuarios. Esto significa que el gateway puede manejar múltiples instancias del servicio y distribuir la carga entre ellas.
+
+#### 🔹spring.cloud.gateway.mvc.routes[0].predicates=Path=/api/alumno/**
+Esta línea define un predicado para la ruta, especificando que esta ruta solo manejará solicitudes que coincidan con el patrón de ruta /api/alumno/**. Esto significa que cualquier solicitud a este patrón será manejada por la ruta configurada.
+
+#### 🔹spring.cloud.gateway.mvc.routes[0].filters=StripPrefix=2
+Finalmente, esta línea aplica un filtro a la ruta que elimina (StripPrefix) las dos primeras partes del path de la solicitud antes de pasarla al servicio de destino. Por ejemplo, una solicitud a /api/alumno/123 sería transformada a /123 antes de ser reenviada al servicio microservicio-usuarios.
+
+
+### Componentes genéricos
+#### ¿Que son?
+Son una característica del lenguaje que permite escribir clases y métodos que pueden trabajar con tipos específicos sin comprometer la seguridad del tipo de datos.
+
+#### Ventajas 
+
+##### 🟣Reutilización de código:
+Los componentes genéricos permiten escribir código que puede ser utilizado con diferentes tipos de datos, lo que promueve la reutilización y la modularidad del código.
+
+##### 🟣Seguridad de tipos: 
+El compilador de Java verifica los tipos de datos en tiempo de compilación, lo que ayuda a detectar errores de tipo en etapas tempranas del desarrollo.
+
+##### 🟣Mejor legibilidad y mantenibilidad del código:
+El uso de componentes genéricos puede hacer que el código sea más legible y comprensible, ya que elimina la necesidad de realizar conversiones de tipo explícitas y proporciona una mejor documentación del código.
+
+##### 🟣Mayor robustez y seguridad:
+Al utilizar componentes genéricos, se pueden detectar errores de tipo en tiempo de compilación, lo que ayuda a reducir la posibilidad de errores en tiempo de ejecución relacionados con la manipulación incorrecta de tipos de datos.
+
+#### Usos comunes de componentes genéricos
+
+##### 🌕Colecciones:
+Las clases genéricas en el paquete java.util como ArrayList, LinkedList, HashMap, etc., permiten almacenar y manipular colecciones de objetos de cualquier tipo de manera segura.
+##### 🌕Métodos genéricos:
+Los métodos pueden ser genéricos, lo que permite escribir algoritmos que pueden trabajar con diferentes tipos de datos. Por ejemplo, un método genérico para ordenar una lista puede funcionar con listas de cualquier tipo de objeto comparable.
+##### 🌕Clases genéricas:
+La creación de clases genéricas permite escribir clases que pueden trabajar con tipos de datos específicos de manera flexible. Por ejemplo, una clase Pair genérica puede representar un par de objetos de cualquier tipo.
+##### 🌕Interfaces genéricas:
+Las interfaces pueden ser genéricas, lo que permite definir interfaces que pueden ser implementadas por diferentes tipos de clases. Esto es útil para definir comportamientos comunes que pueden ser aplicados a diferentes tipos de objetos.
