@@ -1,5 +1,5 @@
 # MicroserviciosParcial2
-creación del microservicio Usuarios y Eureka 
+Creación del microservicio Usuarios, Eureka, Gateway y Common
 
 ## 👤📚Servicio usuario 📚
 ### Dependencias utilizadas 
