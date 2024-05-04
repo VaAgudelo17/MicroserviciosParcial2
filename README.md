@@ -106,3 +106,14 @@ Los métodos pueden ser genéricos, lo que permite escribir algoritmos que puede
 La creación de clases genéricas permite escribir clases que pueden trabajar con tipos de datos específicos de manera flexible. Por ejemplo, una clase Pair genérica puede representar un par de objetos de cualquier tipo.
 ##### 🌕Interfaces genéricas:
 Las interfaces pueden ser genéricas, lo que permite definir interfaces que pueden ser implementadas por diferentes tipos de clases. Esto es útil para definir comportamientos comunes que pueden ser aplicados a diferentes tipos de objetos.
+
+## 👩🏻‍💻Servicio CommonsService📚
+### ¿Que es FetchType.LAZY?
+FetchType.LAZY se utiliza en el contexto de las relaciones de entidades en Java Persistence API (JPA), que es un estándar para el mapeo objeto-relacional utilizado para gestionar bases de datos relacionales en aplicaciones Java.
+### ¿Para que sirve?
+#### 1. Optimización del Rendimiento: 
+Al utilizar FetchType.LAZY, el sistema carga los datos sólo cuando son necesarios. Esto puede reducir significativamente el tiempo de carga inicial y el consumo de memoria, especialmente si la entidad tiene múltiples relaciones o cuando las relaciones incluyen grandes cantidades de datos que raramente se utilizan.
+#### 2. Reducción de la Carga de la Base de Datos: 
+Al evitar la carga innecesaria de datos, FetchType.LAZY ayuda a reducir la carga en la base de datos.
+#### 3. Flexibilidad en el Acceso a Datos:
+Permite un mayor control sobre cuándo y cómo se accede a los datos. Esto puede ser particularmente útil en aplicaciones complejas donde no siempre se necesitan todos los datos asociados con una entidad.
