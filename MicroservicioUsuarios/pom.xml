@@ -52,6 +52,13 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.agudelo.commons.usuario</groupId>
+			<artifactId>MicroservicioCommonsService</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+	
 	</dependencies>
 
 	<build>

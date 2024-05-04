@@ -1,11 +1,11 @@
 package com.agudelo.usuario.service;
-import java.util.Optional;
-import com.agudelo.usuario.models.entity.Alumno;
+
+import com.agudelo.commons.service.CommonService;
+import com.agudelo.commons.models.entity.Alumno;
 
 
-public interface AlumnoService {
-	public Iterable <Alumno> findAll();
-	public Optional <Alumno> findById(Long id );
+public interface AlumnoService extends CommonService<Alumno> {
+
 	public Alumno save (Alumno alumno);
 	public void deleteById (Long id);
 
