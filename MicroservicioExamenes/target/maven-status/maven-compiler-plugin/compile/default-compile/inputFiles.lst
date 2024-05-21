@@ -1,0 +1,9 @@
+/Users/Valentina1/Desktop/UNIVERSIDAD USB/MicroserviciosParcial2/MicroservicioExamenes/src/main/java/com/agudelo/examenes/MicroservicioExamenesApplication.java
+/Users/Valentina1/Desktop/UNIVERSIDAD USB/MicroserviciosParcial2/MicroservicioExamenes/src/main/java/com/agudelo/examenes/repository/ExamenRepository.java
+/Users/Valentina1/Desktop/UNIVERSIDAD USB/MicroserviciosParcial2/MicroservicioExamenes/src/main/java/com/agudelo/examenes/controller/ExamenController.java
+/Users/Valentina1/Desktop/UNIVERSIDAD USB/MicroserviciosParcial2/MicroservicioExamenes/src/main/java/com/agudelo/examenes/service/ExamenServiceImpl.java
+/Users/Valentina1/Desktop/UNIVERSIDAD USB/MicroserviciosParcial2/MicroservicioExamenes/src/main/java/com/agudelo/examenes/service/PreguntaServiceImpl.java
+/Users/Valentina1/Desktop/UNIVERSIDAD USB/MicroserviciosParcial2/MicroservicioExamenes/src/main/java/com/agudelo/examenes/service/ExamenService.java
+/Users/Valentina1/Desktop/UNIVERSIDAD USB/MicroserviciosParcial2/MicroservicioExamenes/src/main/java/com/agudelo/examenes/controller/PreguntaController.java
+/Users/Valentina1/Desktop/UNIVERSIDAD USB/MicroserviciosParcial2/MicroservicioExamenes/src/main/java/com/agudelo/examenes/repository/PreguntaRepository.java
+/Users/Valentina1/Desktop/UNIVERSIDAD USB/MicroserviciosParcial2/MicroservicioExamenes/src/main/java/com/agudelo/examenes/service/PreguntaService.java

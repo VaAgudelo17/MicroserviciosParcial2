@@ -1,0 +1,5 @@
+com/agudelo/usuario/PrimerEjemploDeServicio2Application.class
+com/agudelo/usuario/service/AlumnoServiceImpl.class
+com/agudelo/usuario/repository/AlumnoRepository.class
+com/agudelo/usuario/controller/AlumnoController.class
+com/agudelo/usuario/service/AlumnoService.class

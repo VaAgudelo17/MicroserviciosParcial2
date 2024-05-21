@@ -12,6 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @ComponentScan({"com.agudelo.curso.models.entity", "com.agudelo.commons.models.entity"})
 @EntityScan({"com.agudelo.commons.models.entity", "com.agudelo.curso.models.entity"})
 @EnableJpaRepositories({"com.agudelo.curso.models.entity","com.agudelo.commons.models.entity"})
+
 public class MicroservicioSpringCursoApplication {
 
 	public static void main(String[] args) {
