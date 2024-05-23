@@ -131,7 +131,7 @@ Permite un mayor control sobre cuándo y cómo se accede a los datos. Esto puede
 <img width="1381" alt="Captura de Pantalla 2024-05-22 a la(s) 22 38 00" src="https://github.com/VaAgudelo17/MicroserviciosParcial2/assets/114451968/091d200a-1e7d-46fe-b62a-8c57852223aa">
 
 ### ➤Contenedores 
-<img width="1440" alt="Captura de Pantalla 2024-05-20 a la(s) 18 18 56" src="https://github.com/VaAgudelo17/MicroserviciosParcial2/assets/114451968/efc0aaaa-c1f2-46b8-9da1-b1d7a9216064">
+<img width="1348" alt="Captura de Pantalla 2024-05-20 a la(s) 18 19 07" src="https://github.com/VaAgudelo17/MicroserviciosParcial2/assets/114451968/4c8c81eb-25bd-48ff-9585-5ef798a37b09">
 
 
 
