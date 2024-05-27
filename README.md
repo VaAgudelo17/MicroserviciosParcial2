@@ -117,3 +117,26 @@ Al utilizar FetchType.LAZY, el sistema carga los datos sólo cuando son necesari
 Al evitar la carga innecesaria de datos, FetchType.LAZY ayuda a reducir la carga en la base de datos.
 #### 3. Flexibilidad en el Acceso a Datos:
 Permite un mayor control sobre cuándo y cómo se accede a los datos. Esto puede ser particularmente útil en aplicaciones complejas donde no siempre se necesitan todos los datos asociados con una entidad.
+
+# screen shots
+
+## 🐘Base de datos🐘
+<img width="526" alt="Captura de Pantalla 2024-05-20 a la(s) 20 51 54" src="https://github.com/VaAgudelo17/MicroserviciosParcial2/assets/114451968/0990e843-1820-4320-9f9e-6cc60ebdf6ea">
+
+## 🍀Eureka🍀 
+<img width="1440" alt="Captura de Pantalla 2024-05-22 a la(s) 22 36 23" src="https://github.com/VaAgudelo17/MicroserviciosParcial2/assets/114451968/810fe5c0-dbb6-4780-813c-17c9122246d9">
+
+## 🐳Docker🐳
+### ➤Imagenes
+<img width="1381" alt="Captura de Pantalla 2024-05-22 a la(s) 22 38 00" src="https://github.com/VaAgudelo17/MicroserviciosParcial2/assets/114451968/091d200a-1e7d-46fe-b62a-8c57852223aa">
+
+### ➤Contenedores 
+<img width="1348" alt="Captura de Pantalla 2024-05-20 a la(s) 18 19 07" src="https://github.com/VaAgudelo17/MicroserviciosParcial2/assets/114451968/4c8c81eb-25bd-48ff-9585-5ef798a37b09">
+
+
+
+
+
+
+
+
